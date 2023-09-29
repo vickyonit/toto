@@ -7,8 +7,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/vickyonit/toto/pkg/converter"
+
 	"github.com/spf13/cobra"
-	"github.com/vickyonit/toto/pkg/converter/converter"
 )
 
 // jsonToYamlCmd represents the jsonToYaml command
