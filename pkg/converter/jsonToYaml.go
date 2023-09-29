@@ -1,10 +1,11 @@
-package to_yaml
+package jsonToYaml
 
 import (
 	"encoding/json"
 	"fmt"
-	"gopkg.in/yaml.v2"
 	"os"
+
+	"gopkg.in/yaml.v2"
 )
 
 func ConvertJSONToYAML(inputFile, outputFile string) error {
