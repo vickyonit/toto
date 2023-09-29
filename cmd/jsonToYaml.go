@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/vickyonit/toto/pkg/converter/jsonToYaml"
+	"github.com/vickyonit/toto/pkg/converter/converter"
 )
 
 // jsonToYamlCmd represents the jsonToYaml command
@@ -20,7 +20,7 @@ var jsonToYamlCmd = &cobra.Command{
 		inputFile := args[0]
 		outputFile := args[1]
 		// Perform JSON to YAML conversion
-		err := jsonToYaml.ConvertJSONToYAML(inputFile, outputFile)
+		err := converter.ConvertJSONToYAML(inputFile, outputFile)
 		if err != nil {
 			fmt.Printf("Error: %s\n", err)
 			os.Exit(1)

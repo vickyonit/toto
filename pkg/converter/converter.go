@@ -1,4 +1,4 @@
-package jsonToYaml
+package converter
 
 import (
 	"encoding/json"
