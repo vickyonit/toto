@@ -1,5 +1,5 @@
 brews:
-  - name: toto
+  - name: homebrew-toto
     homepage: https://github.com/vickyonit/homebrew-toto 
     repository:
       owner: vickyonit
