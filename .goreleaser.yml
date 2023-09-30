@@ -1,0 +1,6 @@
+brews:
+  - name: toto
+    homepage: https://github.com/vickyonit/homebrew-toto 
+    tap:
+      owner: vickyonit
+      name: homebrew-toto
