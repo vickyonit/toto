@@ -1,6 +1,7 @@
 brews:
   - name: toto
     homepage: https://github.com/vickyonit/homebrew-toto 
-    tap:
+    repository:
       owner: vickyonit
       name: homebrew-toto
+      token: "{{ .Env.HOMEBREW_GITHUB_API_TOKEN }}"
